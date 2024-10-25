@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS pet_database;
-CREATE DATABASE pet_database;
-USE pet_database;
+--DROP DATABASE IF EXISTS pet_database;
+--CREATE DATABASE pet_database;
+--USE pet_database;
 
-DROP TABLE IF EXISTS petPet, petEvent;
+--DROP TABLE IF EXISTS petPet, petEvent;
 
 CREATE TABLE petPet (
   petname VARCHAR(20) PRIMARY KEY,
